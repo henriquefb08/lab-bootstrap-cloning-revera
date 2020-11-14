@@ -1,0 +1,99 @@
+.navbar-brand { 
+    margin-left: 10%;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.mynavbar {
+    min-height: 75px;
+}
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center; 
+
+}
+.red-part {
+    display: flex;
+    background-color: #ed564b;
+    width: 100%;
+    height: 45vh;
+}
+
+.intern-div { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.img-black-white { 
+    filter: grayscale(7);
+}
+
+.overlay { 
+    background-image: url(/starter-code/img/overlay.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+/* footer */
+
+.gray-back{
+    background-color: #3B3B3B;
+    height: 80vh;
+}
+.faixa{
+    margin-top: 5%;
+    height: 0.7vh;
+    width: 100vw;
+    background-color: #ED564B;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer > div{
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width:20%;
+    color: lightgray;
+}
+footer> div>ul{
+    list-style: none;
+    margin-left: -10%;
+}
+footer > div > hr {
+    margin-top: -1em;
+    background-color: lightgray;
+}
+#meta {
+    margin-left: 12%;
+}
+footer> div > p > a {
+    color: lightgray;
+}
+footer > div > h4{
+    margin-bottom: 15%;
+}
+footer > div > ul> hr{
+    margin-top: -1.5%;
+    background-color: lightgray;
+    width: 80%;
+    margin-left: 0;
+}
+.gray-back > div > ul > li > a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.0rem;
+}
